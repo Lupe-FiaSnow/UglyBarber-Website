@@ -1,2 +1,2 @@
-# UglyBarber-Website
-A website for a local barber shop that I coded with HTML, CSS and JavaScript
+# UglyBarber
+ A website that I hand coded from scratch
