@@ -25,3 +25,14 @@ const navSlide = () => {
 }
 
 navSlide();
+
+var dayOfWeek = (new Date).getDay();
+var hours = ["Closed",          // Sunday
+             "9.30 AM to 6 PM",   // Monday
+             "9.30 AM to 6 PM",   // Tuesday
+             "9.30 AM to 6 PM",   // Wednesday
+             "9.30 AM to 6 PM",   // Thursday
+             "9.30 AM to 6 PM",   // Friday
+             "9 PM to 4.20 PM"];  // Saturday
+var todaysHours = hours[dayOfWeek];
+document.getElementById("hours").innerHTML = todaysHours;

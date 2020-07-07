@@ -146,6 +146,10 @@ a{
   margin-bottom: 10rem;
 }
 
+.showcase-content .opening-hours{
+  font-size: 3rem;
+}
+
 /* Gallery */
 .small-heading{
   display: flex;
@@ -376,11 +380,13 @@ footer{
 
   .contact-content > div{
     margin-bottom: 7rem;
-    padding-bottom: 2rem;;
+    padding-bottom: 4rem;
     border-bottom: 1px solid var(--primary-color);
   }
 
   .contact-content > div:last-child{
     border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
