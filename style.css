@@ -16,6 +16,7 @@ html{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  line-height: 1.4;
 }
 
 body{
@@ -375,6 +376,10 @@ footer{
 
 @media screen and (max-width: 576px){
   #navbar .logo, .title{
+    font-size: 2.5rem;
+  }
+
+  .showcase-content .opening-hours{
     font-size: 2.5rem;
   }
 
