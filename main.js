@@ -21,9 +21,7 @@ const navSlide = () => {
          burger.classList.toggle('toggle');
     });
 
-
 }
-
 navSlide();
 
 var dayOfWeek = (new Date).getDay();
